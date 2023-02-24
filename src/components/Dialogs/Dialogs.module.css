@@ -1,0 +1,25 @@
+.dialogs{
+ display: grid;
+ grid-template-columns: 2fr 10fr ;
+}
+.ditems{
+    padding: 10px;
+}
+.ditems .active{
+    color: gold;
+}
+
+
+
+.massages{
+    padding: 10px;
+}
+
+.tb{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 10fr 3fr;
+    
+}
+
+
