@@ -10,8 +10,10 @@ const  MyPosts = (props) => {
 
 
     let newPostE = React.createRef();
-    let addPost = () => {
-        props.addPost();
+        let addPost = () => {
+        let text = props.newPostText;
+            props.addPost(text); 
+             props.updateNewPostText('');
         
 
     
